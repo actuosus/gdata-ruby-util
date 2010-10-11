@@ -18,7 +18,7 @@ EOF
   s.homepage = 'http://www.corneverbruggen.com'
 
   s.add_dependency('nokogiri', '~> 1.4.3.1')
-  s.add_dependency('oauth-ruby', '~> 0.4.3')
+  s.add_dependency('oauth', '~> 0.4.3')
 
   s.files = FileList.new('[A-Z]*', 'lib/**/*.rb', 'test/**/*') do |fl|
     fl.exclude(/test_config\.yml$/)
