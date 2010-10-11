@@ -34,7 +34,7 @@ task :doc do
   system "rdoc -U --title 'gdata module documentation' -m README README lib/"
 end
 
-spec = eval(File.read('gdata-ruby-util.gemspec'))
+spec = eval(File.read('gdata.gemspec'))
 Rake::GemPackageTask.new(spec) do |pkg|
   pkg.gem_spec = spec
 end

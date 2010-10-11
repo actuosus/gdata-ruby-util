@@ -2,7 +2,7 @@ require 'rake'
 
 Gem::Specification.new do |s|
   s.platform = Gem::Platform::RUBY
-  s.name = 'gdata-ruby-util'
+  s.name = 'gdata'
   s.version = '1.2'
   s.summary = 'Google Data APIs Ruby Utility Library'
   s.description = <<EOF
