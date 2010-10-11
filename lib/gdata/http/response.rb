@@ -27,11 +27,11 @@ module GData
       # The headers of the HTTP response.
       attr_accessor :headers
       
-      # Converts the response body into a REXML::Document
+      # Converts the response body into a Nokogiri::XML document
       def to_xml
         if @body
           begin
-            return REXML::Document.new(@body).root
+            return Nokogiri::XML(@body).root
           rescue
             raise GData::Client::Error, "Response body not XML."
           end
