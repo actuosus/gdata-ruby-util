@@ -1,6 +1,6 @@
 = GData
 
-* http://code.google.com/p/gdata
+Exported from http://code.google.com/p/gdata and slightly changed to use Nokogiri instead of REXML.
 
 == DESCRIPTION:
 
