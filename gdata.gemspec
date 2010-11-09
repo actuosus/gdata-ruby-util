@@ -17,10 +17,9 @@ EOF
 
   s.add_dependency('nokogiri', '~> 1.4.3.1')
 
-  s.files = FileList.new('[A-Z]*', 'lib/**/*.rb', 'test/**/*') do |fl|
-    fl.exclude(/test_config\.yml$/)
-  end
-  s.require_path = 'lib'
+  s.files = Dir['lib/**/*', 'gdata.gemspec', 'LICENSE', 'README.rdoc', 'Rakefile', ]
+
+  s.require_paths = 'lib'
   s.has_rdoc = true
   s.extra_rdoc_files = ['README', 'LICENSE']
 end
