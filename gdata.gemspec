@@ -21,5 +21,5 @@ EOF
 
   s.require_paths = 'lib'
   s.has_rdoc = true
-  s.extra_rdoc_files = ['README', 'LICENSE']
+  s.extra_rdoc_files = ['README.rdoc', 'LICENSE']
 end
