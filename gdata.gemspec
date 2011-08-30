@@ -19,7 +19,7 @@ EOF
 
   s.files = Dir['lib/**/*', 'gdata.gemspec', 'LICENSE', 'README.rdoc', 'Rakefile', ]
 
-  s.require_paths = 'lib'
+  s.require_paths = ['lib']
   s.has_rdoc = true
   s.extra_rdoc_files = ['README.rdoc', 'LICENSE']
 end
