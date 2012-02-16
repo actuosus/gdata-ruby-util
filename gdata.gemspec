@@ -11,7 +11,7 @@ EOF
   s.required_ruby_version = '>= 1.8.7'
   s.required_rubygems_version = ">= 1.3.6"
 
-  s.author = 'Corné Verbruggen'
+  s.author = 'Corne Verbruggen'
   s.email = 'corne@g-majeur.nl'
   s.homepage = 'http://www.corneverbruggen.com'
 
